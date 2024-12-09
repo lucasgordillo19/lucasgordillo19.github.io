@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body {
+    background-color: rgb(129, 34, 5);
+}
+
+h1 {
+    font-family: Outfit, serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: Outfit, serif;
+    text-align: center;
+    margin: 0 auto ;
+}
+
+h3 {
+    font-family: Outfit, serif;
+    text-align: center;  
+}
+
+p {
+    font-family: Manrope, serif;
+}
+
+span {
+    font-family: Manrope, serif;
+}
+
+label {
+    font-family: Outfit, serif;
+}
+
+a {
+    font-family: Outfit, serif;
+}
+
+button {
+    font-family: Outfit, serif;
+}
+
+div {
+    background-color: rgb(255, 211, 91);
+}
+
+img {
+    border: 5px solid  #5ca2ff;
+}
+
+.paper {
+    background-color:  rgb(255, 211, 91);
+    border: 10px solid #5ca2ff;
+}
+
+.row {
+    background-color: rgb(219, 161, 0);
+}
+
+label {
+    border: 2px solid rgb(219, 161, 0);
+    background-color:  rgb(255, 211, 91);
+}
+
+.collapsible {
+    border: 2px solid rgb(219, 161, 0);
+}
+
+label.paper-btn.margin {
+    color: #ffffff;
+    background-color: rgb(129, 34, 5);
+}
+
+button.btn-block {
+    color: #ffffff;
+    background-color: rgb(129, 34, 5);
+}
+
+.border.fixed {
+    background-color:  rgb(255, 211, 91);
+    border: 5px solid #5ca2ff;
+}
+
+.modal.b {
+    background-color: rgb(129, 34, 5);
+}
