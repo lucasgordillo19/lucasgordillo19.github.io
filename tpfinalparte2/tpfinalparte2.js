@@ -13,19 +13,19 @@ let font;
 let song;
 
 function preload(){
-  imagenes[1] = loadImage('/data/fondo.png');
-  imagenes[2] = loadImage('/data/calam.png');
-  imagenes[3] = loadImage('/data/bob.png');
-  imagenes[4] = loadImage('/data/nota.png');
-  imagenes[5] = loadImage('/data/fondo2.png');
-  imagenes[6] = loadImage('/data/fondo3.png');
-  imagenes[7] = loadImage('/data/fondo4.png');
-  imagenes[8] = loadImage('/data/fondo5.png');
+  imagenes[1] = loadImage('data/fondo.png');
+  imagenes[2] = loadImage('data/calam.png');
+  imagenes[3] = loadImage('data/bob.png');
+  imagenes[4] = loadImage('data/nota.png');
+  imagenes[5] = loadImage('data/fondo2.png');
+  imagenes[6] = loadImage('data/fondo3.png');
+  imagenes[7] = loadImage('data/fondo4.png');
+  imagenes[8] = loadImage('data/fondo5.png');
   
-  font = loadFont('/data/KrabbyPatty.ttf');
+  font = loadFont('data/KrabbyPatty.ttf');
   
   soundFormats('mp3');
-  song = loadSound("/data/dancing.mp3");
+  song = loadSound("data/dancing.mp3");
 }
 
 function setup() {
