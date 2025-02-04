@@ -25,7 +25,7 @@ function preload(){
   font = loadFont('data/KrabbyPatty.TTF');
   
   soundFormats('MP3');
-  song = loadSound("data/dancing.MP3");
+  song = loadSound("data/dancing.mp3");
 }
 
 function setup() {
