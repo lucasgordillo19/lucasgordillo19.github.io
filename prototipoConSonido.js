@@ -334,7 +334,7 @@ function printData() {
   fill(0);
   let texto;
 
-  texto = "Y la amplitud es de = " + amplitud;
+  //texto = "Y la amplitud es de = " + amplitud;
   text(texto, 20, 20);
 }
 
